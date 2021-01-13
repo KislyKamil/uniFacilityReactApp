@@ -1,10 +1,11 @@
 import React from "react";
+import EmployeesCards from "./Employees/EmployeesCards";
 
 const Employees = () => {
     return (
 
-        <div>
-            <p> Employees</p>
+        <div className="home-main">
+            <EmployeesCards/>
         </div>
     )
 }
