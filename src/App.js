@@ -28,7 +28,6 @@ class App extends Component {
                 <Route path="/Departments" exact component={Departments}/>
                 <Route path="/Home" exact component={Home}/>
                 <Redirect exact from="/" to="Home"/>
-
             </Switch>
         )
         return (
