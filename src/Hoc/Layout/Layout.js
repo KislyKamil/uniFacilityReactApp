@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Aux from '../Auxiliary/Auxiliary';
 import NavbarPage from "../../containers/NavBar";
+import Footer from "../../components/Footer";
 
 
 class Layout extends Component {
@@ -14,6 +15,7 @@ class Layout extends Component {
                 <main className="Content">
                     {this.props.children}
                 </main>
+                <Footer/>
             </Aux>
         )
     }
