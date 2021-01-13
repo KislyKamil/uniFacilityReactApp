@@ -1,14 +1,12 @@
 import React from 'react'
+import {MDBContainer} from "mdbreact";
+import Register from "./Register";
 
 const Home = () => {
 
 
     return (
-        <div className={"test-news"}>
-            <p>
-                strona główna wydziału
-            </p>
-        </div>
+        <Register></Register>
     )
 }
 
