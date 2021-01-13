@@ -8,12 +8,12 @@ import
     'mdbreact/dist/css/mdb.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NavbarPage from "./containers/NavBar";
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
-    <React.StrictMode>
+    <BrowserRouter>
         <App/>
-    </React.StrictMode>,
+    </BrowserRouter>,
     document.getElementById('root')
 );
 

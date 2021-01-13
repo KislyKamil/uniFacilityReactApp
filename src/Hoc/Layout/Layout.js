@@ -11,6 +11,9 @@ class Layout extends Component {
         return (
             <Aux>
                 <NavbarPage/>
+                <main className="Content">
+                    {this.props.children}
+                </main>
             </Aux>
         )
     }
