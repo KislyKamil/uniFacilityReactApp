@@ -1,19 +1,19 @@
 import React, {Component} from 'react';
-// import './Layout.css'
 import Aux from '../Auxiliary/Auxiliary';
+import NavbarPage from "../../containers/NavBar";
 
 
 class Layout extends Component {
+
 
     render() {
 
         return (
             <Aux>
-                {/* SOME NAV */}
+                <NavbarPage/>
             </Aux>
         )
     }
 }
-
 
 export default Layout;

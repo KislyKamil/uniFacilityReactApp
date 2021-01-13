@@ -10,7 +10,6 @@ class App extends Component {
         let routes = (
             <Switch>
                 {/* <Route path="/" component={Home} /> */}
-
             </Switch>
         )
         return (
