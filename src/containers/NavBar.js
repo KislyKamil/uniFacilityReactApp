@@ -17,7 +17,7 @@ class NavbarPage extends Component {
     render() {
         return (
                 <MDBNavbar color="indigo" dark expand="md">
-                    <MDBNavbarBrand>
+                    <MDBNavbarBrand href={"/"}>
                         <strong className="white-text">Wydział Informatyki</strong>
                     </MDBNavbarBrand>
                     <MDBNavbarToggler onClick={this.toggleCollapse}/>
