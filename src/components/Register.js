@@ -69,7 +69,7 @@ class Register extends Component {
     render() {
 
         return (
-            <div style={{'width': '100vw', 'background': '#F1F2F2', 'paddingTop': '100px'}}>
+            <div style={{'width': '100vw', 'background': '#F1F2F2', 'paddingTop': '100px', 'paddingBottom': '100px'}}>
                 <MDBContainer className={"lg"}>
                     <MDBRow>
                         <MDBCol lg={6} className={"text-center"}>
