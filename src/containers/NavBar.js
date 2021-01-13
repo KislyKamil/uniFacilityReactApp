@@ -22,7 +22,7 @@ class NavbarPage extends Component {
                     </MDBNavbarBrand>
                     <MDBNavbarToggler onClick={this.toggleCollapse}/>
                     <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-                        <MDBNavbarNav left>
+                        <MDBNavbarNav right>
                             <MDBNavItem active>
                                 <MDBNavLink to="/News">Aktualności</MDBNavLink>
                             </MDBNavItem>
@@ -32,8 +32,6 @@ class NavbarPage extends Component {
                             <MDBNavItem>
                                 <MDBNavLink to="/Recruitment">Rekrutacja</MDBNavLink>
                             </MDBNavItem>
-                        </MDBNavbarNav>
-                        <MDBNavbarNav right>
                             <MDBNavItem>
                                 <MDBDropdown>
                                     <MDBDropdownToggle nav caret>
