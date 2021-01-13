@@ -1,15 +1,14 @@
 import React from 'react'
 
-const Home = () => {
-
+const NewsComponent = () => {
 
     return (
         <div className={"test-news"}>
             <p>
-                strona główna wydziału
+                Aktualnosci
             </p>
         </div>
     )
 }
 
-export default Home;
+export default NewsComponent;

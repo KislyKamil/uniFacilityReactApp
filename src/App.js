@@ -9,6 +9,8 @@ import About from "./components/About";
 import Employees from "./components/Employees";
 import Contact from "./components/Contact";
 import Departments from "./components/Departments";
+import NewsComponent from "./components/NewsComponent";
+import {Redirect} from "react-router";
 
 
 class App extends Component {
@@ -17,13 +19,16 @@ class App extends Component {
 
         let routes = (
             <Switch>
-                <Route path="/News" component={Home}/>
-                <Route path="/Research" component={Research}/>
-                <Route path="/Recruitment" component={Recruitment}/>
-                <Route path="/About" component={About}/>
-                <Route path="/Employees" component={Employees}/>
-                <Route path="/Contact" component={Contact}/>
-                <Route path="/Departments" component={Departments}/>
+                <Route path="/News" exact component={NewsComponent}/>
+                <Route path="/Research" exact component={Research}/>
+                <Route path="/Recruitment" exact component={Recruitment}/>
+                <Route path="/About" exact component={About}/>
+                <Route path="/Employees" exact component={Employees}/>
+                <Route path="/Contact" exact component={Contact}/>
+                <Route path="/Departments" exact component={Departments}/>
+                <Route path="/Home" exact component={Home}/>
+                <Redirect exact from="/" to="Home"/>
+
             </Switch>
         )
         return (

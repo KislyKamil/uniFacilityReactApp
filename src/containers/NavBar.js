@@ -17,12 +17,12 @@ class NavbarPage extends Component {
     render() {
         return (
                 <MDBNavbar color="indigo" dark expand="md">
-                    <MDBNavbarBrand href={"/"}>
-                        <strong className="white-text">Wydział Informatyki</strong>
+                    <MDBNavbarBrand href="/Home">
+                        <strong  className="white-text">Wydział Informatyki</strong>
                     </MDBNavbarBrand>
                     <MDBNavbarToggler onClick={this.toggleCollapse}/>
                     <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-                        <MDBNavbarNav right>
+                        <MDBNavbarNav left>
                             <MDBNavItem active>
                                 <MDBNavLink to="/News">Aktualności</MDBNavLink>
                             </MDBNavItem>
@@ -32,6 +32,8 @@ class NavbarPage extends Component {
                             <MDBNavItem>
                                 <MDBNavLink to="/Recruitment">Rekrutacja</MDBNavLink>
                             </MDBNavItem>
+                        </MDBNavbarNav>
+                        <MDBNavbarNav right>
                             <MDBNavItem>
                                 <MDBDropdown>
                                     <MDBDropdownToggle nav caret>
