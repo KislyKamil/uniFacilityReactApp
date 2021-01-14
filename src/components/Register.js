@@ -36,27 +36,31 @@ class Register extends Component {
         })
     }
 
+    onButtonClick = (e) => {
+        window.location.href = '/Recruitment?recr=' + this.state.selectedLevel + this.state.speciality;
+    };
+
     getOptions(level) {
 
         const map = {
             inz: [
                 {
-                    text: 'Inż1',
-                    value: 'inz',
+                    text: 'Inżynieria oprogramowania',
+                    value: 'io',
                 },
                 {
-                    text: 'Inż2',
-                    value: 'inz2',
+                    text: 'Projektowanie aplikacji webowych',
+                    value: 'paw',
                 }
             ],
             mgr: [
                 {
-                    text: 'Mgr1',
-                    value: 'mgr1',
+                    text: 'Inżynieria oprogramowania',
+                    value: 'io',
                 },
                 {
-                    text: 'Mgr2',
-                    value: 'mgr2',
+                    text: 'Projektowanie aplikacji webowych',
+                    value: 'paw',
                 }
             ]
         };
@@ -96,7 +100,7 @@ class Register extends Component {
                                 })}
                             </select>
 
-                            <MDBBtn disabled={this.state.disabled}>Dołącz</MDBBtn>
+                            <MDBBtn disabled={this.state.disabled} onClick={this.onButtonClick}>Dołącz</MDBBtn>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
