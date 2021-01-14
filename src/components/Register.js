@@ -78,10 +78,14 @@ class Register extends Component {
                     <MDBRow>
                         <MDBCol lg={6} className={"text-center"}>
                             <img src={quiz} style={{'width': '200px'}}/>
-                            <p>opis opis opis</p>
+                            <h3 className="title">Dołącz do nas!</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
                         </MDBCol>
                         <MDBCol lg={6} className={"text-center"} >
-                            <p>Wybierz studia dla siebie:</p>
+                            <h3 className={"title"}>Wybierz studia dla siebie:</h3>
+                            <p>Stopień:</p>
                             <select className="browser-default custom-select" value={this.state.selectedLevel} onChange={this.onSelectChanged}>
                                 <option value={null}>Wybierz stopień...</option>
                                 { this.state.options1.map((opt, inx) => {
