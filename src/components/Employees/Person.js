@@ -57,7 +57,7 @@ export default function Person(props) {
             />
             <CardMedia
                 className={classes.media}
-                image="https://source.unsplash.com/600x350/?it,computers,science"
+                image={props.url}
                 title={props.name}
             />
             <CardContent>

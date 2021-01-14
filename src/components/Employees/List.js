@@ -36,6 +36,7 @@ const showDetails = (name, title) => {
         name={name}
         title={title}
         letters={name.slice(0, 1) + name.split(" ")[1].slice(0, 1)}
+        url={"https://source.unsplash.com/600x350/?it,computers,science"}
     />)
 
 }
