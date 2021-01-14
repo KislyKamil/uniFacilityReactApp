@@ -57,7 +57,7 @@
     margin-top: 60px;
 }
 
-.inf-dt .container{
+.inf-dt .container {
     margin-left: 60px;
     margin-top: 30px;
 }
@@ -66,12 +66,16 @@
     display: grid;
     grid-template-rows: 200px 600px;
 }
-.contact p{
+
+.contact p {
     margin: 1px;
 }
 
 .form-contact {
     padding-top: 125px;
-    position: relative;
-    left: -17%;
+
+}
+
+.form-contact .container {
+    margin-left: 60px;
 }
