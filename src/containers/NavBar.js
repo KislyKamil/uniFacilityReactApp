@@ -41,7 +41,6 @@ class NavbarPage extends Component {
                                 </MDBDropdownToggle>
                                 <MDBDropdownMenu>
                                     <MDBDropdownItem href="/About">O instytucie</MDBDropdownItem>
-                                    <MDBDropdownItem href="/Departments">Działy</MDBDropdownItem>
                                     <MDBDropdownItem href="/Contact">Kontakt</MDBDropdownItem>
                                     <MDBDropdownItem href="/Employees">Pracownicy</MDBDropdownItem>
                                 </MDBDropdownMenu>
