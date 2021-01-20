@@ -7,7 +7,7 @@ import {
     MDBCardText,
     MDBCardTitle,
     MDBCol,
-    MDBContainer,
+    MDBContainer, MDBIcon,
     MDBRow
 } from "mdbreact";
 import teacher from "../assets/img/svg/teacher.svg"
@@ -23,9 +23,95 @@ const About = () => {
                 </MDBCol>
 
             </MDBRow>
-            <MDBRow>
-                <MDBCol className={"text-center"}>
-                    About
+            <MDBRow center>
+                <MDBCol md='8'>
+                    <MDBCard
+                        className='card-image'
+                        style={{
+                            backgroundImage:
+                                "url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg')"
+                        }}
+                    >
+                        <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
+                            <div>
+                                <h5 className='pink-text'>
+                                    <MDBIcon icon='desktop' /> Zakład algorytmiki
+                                </h5>
+                                <MDBCardTitle tag='h3' className='pt-2'>
+                                    <strong></strong>
+                                </MDBCardTitle>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
+                                    officia accusamus minus error nisi architecto nulla ipsum
+                                    dignissimos. Odit sed qui, dolorum!
+                                </p>
+                                <MDBBtn color='pink'>
+                                    <MDBIcon icon='clone left' /> Czytaj więcej
+                                </MDBBtn>
+                            </div>
+                        </div>
+                    </MDBCard>
+                </MDBCol>
+
+                <MDBCol md='8' >
+                    <MDBCard
+                        className='card-image'
+                        style={{
+                            backgroundImage:
+                                "url('https://images.unsplash.com/photo-1602052577122-f73b9710adba?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=510&ixid=MXwxfDB8MXxyYW5kb218fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000')"
+                        }}
+                    >
+                        <div className='text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4'>
+                            <div>
+                                <h5 className='orange-text'>
+                                    <MDBIcon icon='desktop' /> Zakład systemów komputerowych
+                                </h5>
+                                <MDBCardTitle tag='h3' className='pt-2'>
+                                    <strong></strong>
+                                </MDBCardTitle>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
+                                    officia accusamus minus error nisi architecto nulla ipsum
+                                    dignissimos. Odit sed qui, dolorum!
+                                </p>
+                                <MDBBtn color='deep-orange'>
+                                    <MDBIcon icon='clone left' /> Czytaj więcej
+                                </MDBBtn>
+                            </div>
+                        </div>
+                    </MDBCard>
+                </MDBCol>
+
+                <MDBCol md='8' >
+                    <MDBCard
+                        className='card-image'
+                        style={{
+                            backgroundImage:
+                                "url('https://images.unsplash.com/photo-1605192020788-24d8eae86e59?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=510&ixid=MXwxfDB8MXxyYW5kb218fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000')"
+                        }}
+                    >
+                        <div className='text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4'>
+                            <div>
+                                <h5 className='green-text'>
+                                    <MDBIcon icon='desktop' /> Zakład architektury sieci
+                                </h5>
+                                <MDBCardTitle tag='h3' className='pt-2'>
+                                    <strong></strong>
+                                </MDBCardTitle>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
+                                    officia accusamus minus error nisi architecto nulla ipsum
+                                    dignissimos. Odit sed qui, dolorum!
+                                </p>
+                                <MDBBtn color='deep-orange'>
+                                    <MDBIcon icon='clone left' /> Czytaj więcej
+                                </MDBBtn>
+                            </div>
+                        </div>
+                    </MDBCard>
                 </MDBCol>
             </MDBRow>
         </MDBContainer>

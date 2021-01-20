@@ -26,7 +26,7 @@ const Departments = () => {
                             <MDBView>
                                 <img
                                     className="d-block w-100"
-                                    src="https://source.unsplash.com/1000x510/?it,computers,science"
+                                    src="https://images.unsplash.com/photo-1610972777493-35b54fe8c777?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=510&ixid=MXwxfDB8MXxyYW5kb218fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000"
                                     alt="First slide"
                                 />
                                 <MDBMask overlay="black-light"/>
@@ -40,7 +40,7 @@ const Departments = () => {
                             <MDBView>
                                 <img
                                     className="d-block w-100"
-                                    src="https://source.unsplash.com/1000x530/?it,computers,science"
+                                    src="https://images.unsplash.com/photo-1605192020788-24d8eae86e59?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=510&ixid=MXwxfDB8MXxyYW5kb218fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000"
                                     alt="Second slide"
                                 />
                                 <MDBMask overlay="black-light"/>
@@ -54,7 +54,7 @@ const Departments = () => {
                             <MDBView>
                                 <img
                                     className="d-block w-100"
-                                    src="https://source.unsplash.com/1000x520/?it,computers,science"
+                                    src="https://images.unsplash.com/photo-1602052577122-f73b9710adba?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=510&ixid=MXwxfDB8MXxyYW5kb218fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000"
                                     alt="Third slide"
                                 />
                                 <MDBMask overlay="black-light"/>
