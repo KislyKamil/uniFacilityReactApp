@@ -87,3 +87,13 @@
 .news-main  .offset-md-2 {
     margin-left: 37%;
 }
+.research-main  .offset-md-2 {
+    margin-left: 47%;
+}
+
+.research-main .col {
+    margin: 5px;
+}
+.research-main p {
+   font-size: 25px;
+}
