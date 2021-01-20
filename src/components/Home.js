@@ -1,12 +1,16 @@
 import React from 'react'
 import {MDBContainer} from "mdbreact";
 import Register from "./Register";
+import Departments from "./Departments";
 
 const Home = () => {
 
 
     return (
-        <Register></Register>
+        <div>
+            <Register></Register>
+            <Departments></Departments>
+        </div>
     )
 }
 
