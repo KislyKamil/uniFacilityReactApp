@@ -1,10 +1,5 @@
 import React from 'react'
 import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
-    MDBCardFooter,
     MDBContainer,
     MDBRow, MDBCol
 } from "mdbreact";
