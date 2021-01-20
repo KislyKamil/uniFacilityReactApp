@@ -79,3 +79,11 @@
 .form-contact .container {
     margin-left: 60px;
 }
+
+.news-main .col {
+    margin: 15px;
+}
+
+.news-main  .offset-md-2 {
+    margin-left: 32%;
+}
